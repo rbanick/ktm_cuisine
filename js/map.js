@@ -1,31 +1,32 @@
 
 // the link relation way
 
-$(document).ready(function() {
-
-	var osm = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	var osm = L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-	    maxZoom: 20 });
+	    maxZoom: 20
+    });
 
-// creates geojson with popUp functionality
+// creates geojson with basic popUp functionality
 
   $.getJSON($('link[rel="points"]').attr("href"), function(data) {
-  	data = JSON.parse(data);
-    var geojson = L.geoJson(data, {
-      onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.name);
-      }
-    });
-    });
+    	data = JSON.parse(data);
+      var geojson = L.geoJson(data, {
+        onEachFeature: function (feature, layer) {
+          layer.bindPopup(feature.properties.name);
+          // alternate, verbose: layer.bindPopup(<br><center> Name: ' +feature.properties.name+ "<br><center> Cuisine: " +feature.properties.cuisine+" "<br><center> Specialties: " +feature.properties.specialties+" "<br><center> Directions: " +feature.properties.directions+" "<br><center> Comments: " +feature.properties.comments+");
+        }
+      });
 
-	var map = L.map('map').fitBounds(geojson.getBounds());
+// create the map variable with the boundaries of the GeoJSON
 
+    var map = L.map('map').fitBounds(geojson.getBounds());
+  
 // add the above to the map div
+  
+    osm.addTo(map);
+    geojson.addTo(map);
 
-osm.addTo(map);
-geojson.addTo(map);
-
-});
+    });
 
 
 

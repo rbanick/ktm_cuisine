@@ -1,0 +1,68 @@
+{
+    'type': 'FeatureCollection',
+    'features': [
+      {
+        'type': 'Feature',
+        'properties': {
+          'name': 'Anju's Chatamari',
+          'directions': 'In a warren of alleys in Dilli Bazaar'
+          'cuisine': 'Newar',
+          'specialties': [Chatamari],
+          'comment': 'Chatamari so crispy it's almost like Dosa. Other Newar food is fantastic' },
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [27.70305, 85.33018]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+          'name': 'Raxi and Bara Spot',
+          'directions': 'Signage out front all in Devanagiri',
+          'cuisine' : 'Newar',
+          'specialties': [Raxi, Bara],
+          'comment': 'Meat dishes are top notch' },
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [27.66011, 85.32401] }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+          'name': 'Tibetan Momos',
+          'directions': 'Unmarked joint down an alley by the Patan Kumari palace, look for a green curtain on your left when heading South.'
+          'cuisine' : 'Newar',
+          'specialties': [Anda Chiura, Chyang, Raxi],
+          'comment': 'Real hole in the wall with cheap chyang and cheerful owners. Chyang served in teapots.' },
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [0,0] }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+          'name': 'Thakali Daal Bhat',
+          'directions': 'Across the road from the airport cargo bay and down the hill, marked by a black sign in Devanagiri script'
+          'cuisine': 'Nepali / Thakali',
+          'specialties': [Daal bhat],
+          'comment': 'Best Daal Bhat in town. Come before 1 PM while it/n's fresh.' },
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [0,0]
+        }
+      },
+      {
+        'type': 'Feature',
+        'properties': {
+          'name': 'Anju's Chatamari',
+          'directions': 'In a warren of alleys in Dilli Bazaar'
+          'cuisine': 'Newar',
+          'specialties': [Chatamari],
+          'comment': 'Chatamari almost like Dosa. Other Newar food is fantastic' },
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [27.70305, 85.33018]
+        }
+      },
+    ]
+}

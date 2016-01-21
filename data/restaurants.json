@@ -11,7 +11,7 @@
           "comment": "Chatamari so crispy it's almost like Dosa. Other Newar food is fantastic" },
         "geometry": {
           "type": "Point",
-          "coordinates": [27.70305, 85.33018]
+          "coordinates": [85.33018, 27.70305]
         }
       },
       {
@@ -24,7 +24,7 @@
           "comment": "Meat dishes are top notch" },
         "geometry": {
           "type": "Point",
-          "coordinates": [27.66011, 85.32401] }
+          "coordinates": [85.32401, 27.66011] }
       },
       {
         "type": "Feature",
@@ -61,8 +61,8 @@
           "comment": "Chatamari almost like Dosa. Other Newar food is fantastic" },
         "geometry": {
           "type": "Point",
-          "coordinates": [27.70305, 85.33018]
+          "coordinates": [85.33018, 27.70305]
         }
-      },
+      }
     ]
 }

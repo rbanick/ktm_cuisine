@@ -1,0 +1,25 @@
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tibetan Momos",
+          "directions": "Unmarked joint down an alley by the Patan Kumari palace, look for a green curtain on your left when heading South.",
+          "cuisine": "Newar",
+          "specialties": ["Anda Chiura", "Chyang", "Raxi"],
+          "comment": "Real hole in the wall with cheap chyang and cheerful owners. Chyang served in teapots." },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [0,0] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Thakali Daal Bhat",
+          "directions": "Across the road from the airport cargo bay and down the hill, marked by a black sign in Devanagiri script",
+          "cuisine": "Nepali / Thakali",
+          "specialties": ["Daal bhat"],
+          "comment": "Best Daal Bhat in town. Come before 1 PM while it's fresh." },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [0,0]
+        }
+      },

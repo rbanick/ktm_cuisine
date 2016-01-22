@@ -1,15 +1,14 @@
 
 // the link relation way
 
-	var osm = L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-	    maxZoom: 20
+  var osm = new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 20
     });
 
 // creates geojson with basic popUp functionality
 
   $.getJSON('data/restaurants.json', function(data) {
-    	data = JSON.parse(data);
       var geojson = L.geoJson(data, {
         onEachFeature: function (feature, layer) {
           layer.bindPopup(feature.properties.name);
@@ -20,7 +19,7 @@
 // create the map variable with the boundaries of the GeoJSON
 
     var map = L.map('map').fitBounds(geojson.getBounds());
-
+  
 // add the above to the map div
 
     osm.addTo(map);

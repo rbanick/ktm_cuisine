@@ -17,6 +17,43 @@
       {
         "type": "Feature",
         "properties": {
+          "name": "Thakali Daal Bhat",
+          "directions": "Across the road from the airport cargo bay and down the hill, marked by a black sign in Devanagiri script",
+          "cuisine": "Nepali / Thakali",
+          "specialties": ["Daal bhat"],
+          "comment": "Best Daal Bhat in town. Come before 1 PM while it's fresh." },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [85.35195, 27.69061]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Bhatti",
+          "directions": "Unmarked joint down an alley by the Patan Kumari palace, look for a green curtain on your left when heading South.",
+          "cuisine": "Newar",
+          "specialties": ["Anda Chiura", "Chyang", "Raxi"],
+          "comment": "Real hole in the wall with cheap chyang and cheerful owners. Chyang served in teapots." },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [85.32154,27.67349] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Tibetan Momos",
+          "directions": "Down an alley across from the barbershop next to the big Ekantakuna tree. Go all the way to the back of the alley and you'll be facing the restaurant.",
+          "cuisine": "Tibetan",
+          "specialties": ["Buff Momos"],
+          "comment": "Some of the best buff momos in the city." },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [85.31005,27.67033] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
           "name": "Raxi and Bara Spot",
           "directions": "Signage out front all in Devanagiri",
           "cuisine": "Newar",
@@ -24,7 +61,8 @@
           "comment": "Meat dishes are top notch" },
         "geometry": {
           "type": "Point",
-          "coordinates": [85.32401, 27.66011] }
+          "coordinates": [85.32401, 27.66011] 
+        }
       }
     ]
 }

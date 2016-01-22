@@ -19,11 +19,7 @@
 // create the map variable with the boundaries of the GeoJSON
 
     var map = L.map('map').fitBounds(geojson.getBounds());
-    console.log(map);
-    console.log(geojson.getBounds);
-    console.log(geojson);
-    console.log(osm);
-
+  
 // add the above to the map div
 
     osm.addTo(map);

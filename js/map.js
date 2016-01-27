@@ -1,6 +1,13 @@
 
 // the link relation way
 
+  // var colors = {
+  //   'bar': '#8e44ad',
+  //   'cafe': '#e74c3c',
+  //   'pub ': '#16a085',
+  //   'restaurant': '#f1c40f'
+  // };
+  
   var osm = new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 20

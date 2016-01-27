@@ -34,7 +34,7 @@
           "directions": "Across the road from the airport cargo bay and down the hill, marked by a black sign in Devanagiri script",
           "cuisine": "Nepali / Thakali",
           "specialties": ["Daal bhat"],
-          "comment": "Best Daal Bhat in town. Come before 1 PM while it's fresh." },
+          "comment": "Best daal bhat in town. Come before 1 PM while it's fresh." },
         "geometry": {
           "type": "Point",
           "coordinates": [85.35195, 27.69061]
@@ -43,11 +43,11 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Bhatti",
+          "name": "Unnamed bhatti",
           "directions": "Unmarked joint down an alley by the Patan Kumari palace, look for a green curtain on your left when heading South.",
           "cuisine": "Newar",
           "specialties": ["Anda Chiura", "Chyang", "Raxi"],
-          "comment": "Real hole in the wall with cheap chyang and cheerful owners. Chyang served in teapots." },
+          "comment": "Literal hole in the wall with cheap chyang and cheerful owners. Chyang served in teapots." },
         "geometry": {
           "type": "Point",
           "coordinates": [85.32154,27.67349] }
@@ -63,6 +63,18 @@
         "geometry": {
           "type": "Point",
           "coordinates": [85.31005,27.67033] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Kwacha Newari Restaurant",
+          "directions": "Heading north from the Patan Durbar Square, you take a right before the Newa Chen house and then a left down a galli at the very pretty painted temple. Second batti on your left.",
+          "cuisine": "Newar",
+          "specialties": ["Jhaneko Raxi", "Duck Choila"],
+          "comment": "Fantastic Newari food, great raxi" },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [85.32240,27.67602] }
       },
       {
         "type": "Feature",

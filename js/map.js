@@ -18,7 +18,7 @@
   $.getJSON('data/restaurants.json', function(data) {
       var geojson = L.geoJson(data, {
         onEachFeature: function (feature, layer) {
-          layer.bindPopup("<br> <b>Name:</b>" +feature.properties.name+ "<br> <b>Cuisine:</b>" +feature.properties.cuisine+ "<br> <b>Specialties:</b>" +feature.properties.specialties+ "<br> <b>Directions:</b>" +feature.properties.directions+ "<br> <b>Comments:</b>" +feature.properties.comments+);
+          layer.bindPopup("<br> <b>Name:</b>" +feature.properties.name+ "<br> <b>Cuisine:</b>" +feature.properties.cuisine+ "<br> <b>Specialties:</b>" +feature.properties.specialties+ "<br> <b>Directions:</b>" +feature.properties.directions+ "<br> <b>Comments:</b>" +feature.properties.comments);
         }
       });
 

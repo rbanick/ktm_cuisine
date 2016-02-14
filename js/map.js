@@ -15,7 +15,7 @@
 
 // define popups as custom
 
-  var popupContents = "<br> <b>Name: </b>" +feature.properties.name+ "<br> <b>Cuisine: </b>" +feature.properties.cuisine+ "<br> <b>Specialties: </b>" +feature.properties.specialties+ "<br> <b>Directions: </b>" +feature.properties.directions+ "<br> <b>Comments: </b>" +feature.properties.comments;
+  var popupContents = {"<br> <b>Name: </b>" +feature.properties.name+ "<br> <b>Cuisine: </b>" +feature.properties.cuisine+ "<br> <b>Specialties: </b>" +feature.properties.specialties+ "<br> <b>Directions: </b>" +feature.properties.directions+ "<br> <b>Comments: </b>" +feature.properties.comments};
 
   var customOptions = {'className' : 'custom'};
 

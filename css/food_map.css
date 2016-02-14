@@ -6,3 +6,14 @@ body {
 html, body, #map { 
 	height: 100%;
 	}
+
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+	background: #00BFAC;
+	opacity: 0.8;
+	color: #ffffff;
+}
+
+.custom .leaflet-container a.leaflet-popup-close-button {
+	color: #ffffff;
+}

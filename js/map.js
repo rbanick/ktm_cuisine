@@ -22,7 +22,7 @@
   $.getJSON('data/restaurants.json', function(data) {
       var geojson = L.geoJson(data, {
         onEachFeature: function (feature, layer) {
-          layer.bindPopup("<br> <b>"+feature.properties.name+"</b>""<br> <b>Cuisine: </b>"+feature.properties.cuisine+"<br> <b>Specialties: </b>"+feature.properties.specialties+"<br> <b>Directions: </b>"+feature.properties.directions+"<br><br><b>Comments: </b> <i>"+feature.properties.comment"</i>");
+          layer.bindPopup("<br> <b>"+feature.properties.names+"</b>""<br> <b>Cuisine: </b>"+feature.properties.cuisine+"<br> <b>Specialties: </b>"+feature.properties.specialties+"<br> <b>Directions: </b>"+feature.properties.directions+"<br><br><b>Comments: </b> <i>"+feature.properties.comment"</i>");
         }x
       });
 

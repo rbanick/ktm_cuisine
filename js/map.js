@@ -15,15 +15,15 @@
 
 // define popups as custom
 
-  var customOptions = {'className' : 'custom'};
+  // var customOptions = {'className' : 'custom'};
 
 // creates geojson with basic popUp functionality
 
   $.getJSON('data/restaurants.json', function(data) {
       var geojson = L.geoJson(data, {
         onEachFeature: function (feature, layer) {
-          layer.bindPopup("<br> <b>" +feature.properties.name+ "</b>""<br> <b>Cuisine: </b>" +feature.properties.cuisine+ "<br> <b>Specialties: </b>" +feature.properties.specialties+ "<br> <b>Directions: </b>" +feature.properties.directions+ "<br><br><b>Comments: </b> <i>" +feature.properties.comment,customOptions+"</i>");
-        }
+          layer.bindPopup("<br> <b>"+feature.properties.name+"</b>""<br> <b>Cuisine: </b>"+feature.properties.cuisine+"<br> <b>Specialties: </b>"+feature.properties.specialties+"<br> <b>Directions: </b>"+feature.properties.directions+"<br><br><b>Comments: </b> <i>"+feature.properties.comment"</i>");
+        }x
       });
 
 // create the map variable with the boundaries of the GeoJSON

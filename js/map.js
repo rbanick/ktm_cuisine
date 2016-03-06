@@ -7,11 +7,16 @@
   //   'pub ': '#16a085',
   //   'restaurant': '#f1c40f'
   // };
-  
-  var osm = new L.tileLayer('http://{a}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
-      maxZoom: 21
+ 
+   var osm = new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 20
     });
+     
+  // var osm = new L.tileLayer('http://{a}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  //     attribution: 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+  //     maxZoom: 21
+  //   });
 
 // define popups as custom
 
@@ -23,7 +28,7 @@
       var geojson = L.geoJson(data, {
         onEachFeature: function (feature, layer) {
           layer.bindPopup("<br> <b>"+feature.properties.names+"</b>""<br> <b>Cuisine: </b>"+feature.properties.cuisine+"<br> <b>Specialties: </b>"+feature.properties.specialties+"<br> <b>Directions: </b>"+feature.properties.directions+"<br><br><b>Comments: </b> <i>"+feature.properties.comment"</i>");
-        }x
+        }
       });
 
 // create the map variable with the boundaries of the GeoJSON

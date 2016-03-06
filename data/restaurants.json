@@ -4,7 +4,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Anju's Chatamari",
+          "names": "Anju's Chatamari",
           "directions": "In a warren of alleys in Dilli Bazaar",
           "cuisine": "Newar",
           "specialties": ["Chatamari"],
@@ -17,7 +17,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Duck Choila",
+          "names": "Duck Choila",
           "directions": "A series of 3 duck choila restaurants. Recognizable by the ducks on the signs outside",
           "cuisine": "Nepali",
           "specialties": ["Duck Choila"],
@@ -30,7 +30,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Thakali Daal Bhat",
+          "names": "Thakali Daal Bhat",
           "directions": "Across the road from the airport cargo bay and down the hill, marked by a black sign in Devanagiri script",
           "cuisine": "Nepali / Thakali",
           "specialties": ["Daal bhat"],
@@ -43,7 +43,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Unnamed bhatti",
+          "names": "Unnamesd bhatti",
           "directions": "Unmarked joint down an alley by the Patan Kumari palace, look for a green curtain on your left when heading South.",
           "cuisine": "Newar",
           "specialties": ["Anda Chiura", "Chyang", "Raxi"],
@@ -55,7 +55,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Tibetan Momos",
+          "names": "Tibetan Momos",
           "directions": "Down an alley across from the barbershop next to the big Ekantakuna tree. Go all the way to the back of the alley and you'll be facing the restaurant.",
           "cuisine": "Tibetan",
           "specialties": ["Buff Momos"],
@@ -67,7 +67,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Kwacha Newari Restaurant",
+          "names": "Kwacha Newari Restaurant",
           "directions": "Heading north from the Patan Durbar Square, you take a right before the Newa Chen house and then a left down a galli at the very pretty painted temple. Second batti on your left.",
           "cuisine": "Newar",
           "specialties": ["Jhaneko Raxi", "Duck Choila"],
@@ -79,7 +79,7 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Raxi and Bara Spot",
+          "names": "Raxi and Bara Spot",
           "directions": "Signage out front all in Devanagiri",
           "cuisine": "Newar",
           "specialties": ["Raxi", "Bara"],
